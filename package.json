@@ -1,0 +1,8 @@
+{
+  "name": "louis-fowler-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:louis-fowler/louis-fowler-static.git",
+  "author": "Louis <louis.fowler@gmail.com>",
+  "license": "MIT"
+}
