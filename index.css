@@ -98,9 +98,9 @@ img {
 .projectCards {
   width: 90%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .contactContainer h3 {
@@ -183,8 +183,9 @@ img {
 
 .proCardContainer {
   padding-top: 3vh;
-  width: 30%;
+  width: 70%;
 }
+
 
 .imgContainer {
   transition: 0.3s;
@@ -246,7 +247,17 @@ img {
   }
   
   .projectCards {
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
+  }
+  
+  .proCardContainer {
+    width: 35%;
+  }
+  
+  .proCardContainer:nth-child(1) {
+    margin-right: 5vh;
   }
 
   .cardContainer {
